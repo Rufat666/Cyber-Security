@@ -108,3 +108,5 @@ console.log('result', result2)
 //4
 let result3 = users.map(item => item.age *10)
 console.log('result', result3)
+
+ 
