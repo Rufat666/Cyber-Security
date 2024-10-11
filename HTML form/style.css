@@ -1,0 +1,57 @@
+h1 {
+    font-size: 20px;
+    color: rgb(93, 13, 178);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+form {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #7a0985;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    padding-top: 10px;
+    height: 100vh;
+}
+
+form button {
+    width: 310px;
+    height: 35px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: rgb(93, 13, 178);
+    cursor: not-allowed;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+
+form .gender_box {
+    display: flex;
+    align-items: center;
+}
+
+form .gender_box input {
+    padding: 0;
+    width: 15px;
+    height: 20px;
+
+}
